@@ -1,0 +1,325 @@
+//-------------------obshii--------------------------------------/
+body{
+	margin: 0;
+	font-family: Raleway,sans-serif;
+}
+.container {
+	width: 85%;
+	margin: auto;
+	padding: 15px 15px;
+}
+/--------------navig---------------------------------------------------/
+.navig > .container {
+	display: flex;
+	justify-content: space-between;
+	padding: 20px 10px;
+}
+.log {
+	color: Purple;
+	font-weight: bold;
+	font-style: Serif;
+	font-size: 20px;
+}
+.navig{
+	
+	background-image: url(11.png);
+}
+.navig ul {
+	width: 40%;
+	list-style-type: none;
+	display: flex;
+	justify-content: space-evenly;
+	padding-left:0;
+	margin: 0;
+    backdrop-filter: blur(10px);
+}
+.navig ul a {
+	padding-bottom: 5px;
+	text-decoration: none;
+}
+.navig ul : hover {
+	border-bottom: 1 px solid red;
+}
+.vk a {
+	margin: 9PX;
+	text-decoration: none;
+	font-size: 20px;}
+.megs img {
+	width: 50%;
+	margin: 0 25% ;
+} 
+/-------------------------------Introduction-------------------------------------/
+.pev img{
+	width: 100%;
+}
+.tev{
+	
+	padding: 50px 0 80px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+}
+h2{
+	color: Purple;
+}
+.ss{
+box-shadow: 5px 5px 15px Purple;
+}
+.ll{
+	
+	width: 50%;
+	height: 25%;
+	margin: : auto;
+	padding: 15px 0 ;
+}
+.aq{
+	margin: 25px;
+	color: white;
+	padding: 10px 10px;
+	height: 80%;
+   background-color: Purple;
+     box-shadow: 5px 5px 15px Purple;
+    width: 100%;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 7px;
+     border: none;
+}
+.aq:hover {
+	background-color: white;
+     color: red; }
+
+.Introd >.container{
+	display: flex;
+	padding: 15px 10px;
+}
+/-------------------------------------------ME----------------------------------------------------------/
+.ME >.container{
+	text-align: center;
+	padding: 15px;
+	margin: 15px ;
+	
+}
+h1{
+
+	color: Purple;
+}
+h3{ padding: 10px;
+	color: Fuchsia;
+	 border-radius: 7px;
+}
+.ME{
+	text-align: center;
+	margin: auto;
+	padding: 15px;
+}
+/-------------------------YY-------------------------------------------------------------------------/
+.you{
+	
+	width: 20%;
+	text-align: center;
+}
+.yy>.container{
+	display: flex;
+	justify-content: space-around;
+}
+
+.yo{ 
+	font-style: Serif;
+	color: #ff008d;
+	font-size: 45px;
+    margin: 10px 0;
+	 font-weight: bold;
+
+}
+.go>.container{
+	font-weight: bold;
+	display: flex;
+	height: 18%;
+	text-align: center;
+	font-size: 35px;
+	color: white;
+	padding: 15px;
+}
+.fo {
+	width: 80%;
+	padding: 10px 10px 20px ;
+	background-color: #ff008d;
+    box-shadow: 5px 5px 15px 5px #ff008d;
+ }
+ .of{
+ 	width: 20%;
+    padding: 10px 0px ;
+	background-color: #ff4000;
+    box-shadow: 5px 5px 15px 5px #ff4000;
+ }
+ /------------------------------Family----------------------------------------------------------------------------------/
+ .Family >.container{
+ 	text-align: center;
+ 	display: flex;
+ 	justify-content: space-around;
+ 	padding: 20px;
+
+
+ }
+ .Family{
+ 	text-align: center;
+ }
+  .Family  p{
+  	font-weight: bold;
+  }
+  /----------------------prog-----------------------------------------------------------------------/
+  .prog >.container{
+  	display: flex;
+  text-align: center;
+  
+ 
+  justify-content: space-around;
+  align-items: center;
+  	
+  	
+  }
+  .prog >.container > div{
+  	
+	padding: 50px 0 80px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+  }
+  .prog{
+  	text-align: center;
+  	background-image: url(1.png);
+  	color: white;
+  	}
+  .prog span{
+  	font-size: 12px;
+
+  }
+ .ggg{
+	color: Purple;
+	font-size: 35px;
+}
+.prog p{
+    font-size: 25px;
+    font-weight: bold;
+    box-shadow: 3px 3px 9px white;
+     border-radius: 15px;
+     padding: 10px;
+     width: 75%;}
+.non{
+	font-size: 15px;
+	text-decoration: line-through;
+}
+.prog button{
+	color: white;
+	padding: 10px 0;
+	
+	border-bottom: solid  ;
+  background-color: #ff0080;
+  box-shadow: 5px 5px 15px 10px #ff0080;
+  width: 80%;
+  font-weight: bold;
+  text-align: center;
+  border-radius: 7px;
+  border: none;
+}/-----------------------------------------------------pikir------------------------------------------------------------------------/
+.pikir{
+	text-align: center;
+} 
+  .pikir >.container{
+  	display: flex;
+  text-align: center;
+  justify-content: space-around;
+  align-items: center;
+  justify-self: start;
+  	}
+  .cont > div{
+  	padding: 15px 5px;
+  }
+  .pikir >.cont{
+  	display: flex;
+  text-align: center;
+  justify-content: space-around;
+  align-items: center;
+  justify-self: start; }
+  .pikir img{
+  	width: 20%;
+  }
+  .pikir span{
+  	font-size: 12px;
+
+  }
+  .pikir button{
+	color: white;
+	padding: 10px 0;
+	
+	border-bottom: solid  ;
+  background-color: #ff0080;
+  box-shadow: 5px 5px 15px  #ff0080;
+  width: 35%;
+  font-weight: bold;
+  text-align: center;
+  border-radius: 7px;
+  border: none;}
+ /----------------------------------------bal-------------------------------------------------/
+.bal p{
+	font-weight: bold;
+	color:#ff0080;
+	font-size: 35px;
+
+}
+.bal span {
+	font-size: 20px;
+
+}
+.bal button{
+	color: white;
+	padding: 10px 0;
+	
+	border-bottom: solid  ;
+  background-color: #ff0080;
+  box-shadow: 5px 5px 15px  #ff0080;
+  width: 35%;
+  font-weight: bold;
+  text-align: center;
+  border-radius: 8px;
+  border: none;
+
+}
+.bal >.container{
+  	display: flex;
+  text-align: center;
+  
+ 
+  justify-content: space-around;
+  align-items: center;
+  justify-self: start;
+  padding: 25px 20px ;
+  	
+  	
+  }
+  .bal{
+  	padding: 25px 15px;
+  	text-align: center;
+  }
+  .bal input {
+  	padding: 10px 0;
+  	border-radius: 8px;
+  	width: 32%;
+/-------------------------------------------pop---------------------------------------/	
+  }
+  .pop{
+  	display: flex;
+  text-align: center;
+  
+ background-image: url(14.png);
+  justify-content: space-around;
+  align-items: center;
+  justify-self: start;
+  padding: 25px 20px ;
+  	
+  }
